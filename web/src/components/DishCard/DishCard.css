@@ -1,0 +1,39 @@
+.dish_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+}
+
+.dish_card_img {
+    width: 200px;
+    height: 160px;
+    margin-right: 25px;
+}
+
+.dish_card_name {
+    width: 35%;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dish_card_price {
+    font-size: 20px;
+    text-align: center;
+}
+
+.edit_button, .delet_button {
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(164, 96, 6);
+    font-size: 15px;
+}
+
+.edit_button:hover, .delet_button:hover {
+    color: rgb(198, 160, 110);
+}

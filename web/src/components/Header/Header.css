@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    background-color: rgb(47, 69, 62);
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+
+.header_title {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #cab575;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.nav_link {
+    color: #cab575;
+    text-decoration: none;
+    padding: 0 5px;
+} 
+
+.nav_link:hover {
+    color: #bcbcbc;
+}
+
+.nav_link:focus {
+    color: #bcbcbc;
+    text-decoration: underline;
+}

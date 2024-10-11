@@ -1,0 +1,39 @@
+.orders {
+    padding: 15px;
+}
+
+.order_item {
+    border: 1px solid;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.order_list, .delivery {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.item_name {
+    font-size: 19px;
+    margin: 5px;
+}
+
+.order_total {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.order_total_title {
+    font-size: 18px;
+}
+
+.order_total_sum {
+    font-size: 18px;
+}
+
+.order_delet_button {
+    padding: 5px 15px;
+}

@@ -1,0 +1,24 @@
+.edit_block {
+    padding: 10px;
+}
+
+.edit_block-title {
+    font-size: 22px;
+}
+
+.form_input {
+    width: 300px;
+}
+
+.Input {
+    width: 100%;
+    padding: 4px;
+    margin: 5px;
+}
+
+.order_button {
+    width: 312px;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
